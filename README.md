@@ -1,14 +1,5 @@
-<<<<<<< HEAD
-# Dont-Forget
-Smart Event Countdown &amp; Daily Reminder Browser Extension   
-=======
-<div align="center">
 
-  <a href="https://github.com/96Community">
-    <img src="icons/icon128.png" width="100" height="100" alt="Don't Forget Logo" style="border-radius: 24px; box-shadow: 0 4px 20px rgba(56, 189, 248, 0.35);" />
-  </a>
-
-  # ✦ Don't Forget
+  # Don't Forget
 
   ### Smart Event Countdown & Daily Reminder Browser Extension
   
