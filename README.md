@@ -162,6 +162,5 @@ Developed with care for the **[96 Community](https://github.com/96Community)**.
 ---
 
 <div align="center">
-  <sub>Built with ✦ by the 96 Community. If you like this project, star it on GitHub! ⭐</sub>
+  <sub>Built with ❤️ by the 96 Community. If you like this project, star it on GitHub! ⭐</sub>
 </div>
->>>>>>> 39dbf26 (Initial commits)
