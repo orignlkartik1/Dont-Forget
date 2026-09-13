@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#9333ea" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad)" filter="url(#shadow)"/>
+  <!-- Clock dial -->
+  <circle cx="64" cy="64" r="38" fill="none" stroke="#ffffff" stroke-width="7" opacity="0.95"/>
+  <!-- Dial markers -->
+  <circle cx="64" cy="34" r="2.5" fill="#ffffff"/>
+  <circle cx="94" cy="64" r="2.5" fill="#ffffff"/>
+  <circle cx="64" cy="94" r="2.5" fill="#ffffff"/>
+  <circle cx="34" cy="64" r="2.5" fill="#ffffff"/>
+  <!-- Center pin -->
+  <circle cx="64" cy="64" r="5" fill="#ffffff"/>
+  <!-- Hour hand pointing up-right (10:10) -->
+  <line x1="64" y1="64" x2="48" y2="44" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <!-- Minute hand pointing right -->
+  <line x1="64" y1="64" x2="88" y2="52" stroke="#f43f5e" stroke-width="4.5" stroke-linecap="round"/>
+</svg>
+

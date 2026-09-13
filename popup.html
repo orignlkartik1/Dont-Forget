@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Don't Forget - Quick View</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <!-- Header -->
+    <header class="popup-header">
+      <a href="https://github.com/96Community" target="_blank" rel="noopener noreferrer" class="popup-brand-link" title="Visit 96 Community on GitHub">
+        <div class="popup-brand">
+          <img src="icons/icon32.png" alt="Logo" class="popup-logo">
+          <span class="popup-title">Don't Forget</span>
+          <span class="popup-community-tag">96 Community</span>
+        </div>
+      </a>
+      <button id="openDashboardBtn" class="popup-icon-btn" title="Open Full Dashboard">
+        <svg viewBox="0 0 20 20" fill="currentColor" class="icon-svg">
+          <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+          <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+        </svg>
+      </button>
+    </header>
+
+    <!-- Spotlight Mini Countdown -->
+    <section id="popupSpotlight" class="popup-spotlight">
+      <div class="spotlight-loading">Loading next event...</div>
+    </section>
+
+    <!-- Quick Add Input Form -->
+    <section class="popup-quick-add">
+      <form id="quickAddForm" class="quick-add-form">
+        <input type="text" id="quickTitleInput" placeholder="+ Add event title..." required autocomplete="off">
+        <input type="datetime-local" id="quickTimeInput" required>
+        <button type="submit" class="btn-quick-submit" title="Add Event">Add Event</button>
+      </form>
+    </section>
+
+    <!-- Upcoming List -->
+    <section class="popup-list-section">
+      <div class="section-heading">
+        <span>Upcoming Focus</span>
+        <span id="badgeCount" class="count-pill">0</span>
+      </div>
+      <div id="popupEventsList" class="popup-events-list">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="popup-footer">
+      <button id="footerDashboardBtn" class="btn-footer-link">
+        Open Event Dashboard ↗
+      </button>
+    </footer>
+  </div>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
